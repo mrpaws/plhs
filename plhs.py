@@ -4,12 +4,15 @@
 ## milestones: 	- threaded connection acceptance model
 ## 		- 
 
-import sys
-import socket
-import threading
-import time
+
+import psocket
 
 
+webby = psocket.PSocket('127.0.0.1', 8111)
+
+
+
+'''
 
 HOST = ''                 # Symbolic name meaning all available interfaces
 PORT = 8111              # Arbitrary non-privileged port
@@ -24,3 +27,4 @@ while True:
     if not data: break
     conn.sendall(data)
 conn.close()
+'''
