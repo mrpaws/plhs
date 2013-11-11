@@ -6,7 +6,9 @@
 
 import sys
 import socket
-import threading.py
+import threading
+import time
+
 
 
 HOST = ''                 # Symbolic name meaning all available interfaces
