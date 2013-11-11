@@ -5,10 +5,10 @@
 ## 		- 
 
 
-import psocket
+import pserver
 
 
-webby = psocket.PSocket('127.0.0.1', 8111)
+webby = pserver.PServer('127.0.0.1', 8111)
 
 
 
